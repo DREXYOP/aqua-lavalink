@@ -6,13 +6,13 @@ server:
 plugins:
      lavasrc:
         providers:
-          - "dzisrc:%ISRC%"
+          - "dzisrc:\"%ISRC%\""
           - "dzsearch:%QUERY%"
-          - "ytsearch:\%ISRC%\"
+          - "ytsearch:\"%ISRC%\""
           - "ytsearch:%QUERY%"
-          - "spsearch:\%QUERY%\"
-          - "sprec:\%ISRC%\"
-          - "amsearch:\%QUERY%\"
+          - "spsearch:%QUERY%"
+          - "sprec:\"%ISRC%\""
+          - "amsearch:%QUERY%"
         sources:
           spotify: true
           applemusic: true
