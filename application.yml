@@ -65,7 +65,7 @@ lavalink:
     - dependency: "com.dunctebot:skybot-lavalink-plugin:1.5.1"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
-    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.0.0"
+    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:3.2.10"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
   server:
