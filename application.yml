@@ -15,14 +15,14 @@ plugins:
           - "amsearch:%QUERY%"
         sources:
           spotify: true
-          applemusic: true
-          deezer: true
-          yandexmusic: true
+          applemusic: false
+          deezer: false
+          yandexmusic: false
           flowerytts: false
           youtube: true
         spotify:
-          clientId: "your client id"
-          clientSecret: "your client secret"
+          clientId: "84addc60eac449e19a3bd5fb1954c582"
+          clientSecret: " 71dc8b18c33243f488b8805b9991faf6"
           countryCode: "IN"
           playlistLoadLimit: 6
           albumLoadLimit: 6
@@ -38,8 +38,8 @@ plugins:
         #     -----END PRIVATE KEY-----      
         #   playlistLoadLimit: 6 # The number of pages at 300 tracks each
         #   albumLoadLimit: 6 # The number of pages at 300 tracks each
-        deezer:
-          masterDecryptionKey: "your master decryption key" # the master key used for decrypting the deezer tracks. (yes this is not here you need to get it from somewhere else)
+        # deezer:
+        #   masterDecryptionKey: "your master decryption key" # the master key used for decrypting the deezer tracks. (yes this is not here you need to get it from somewhere else)
         # yandexmusic:
         #   accessToken: "your access token" # the token used for accessing the yandex music api. See https://github.com/TopiSenpai/LavaSrc#yandex-music
         # flowerytts:
