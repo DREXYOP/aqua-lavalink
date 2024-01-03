@@ -22,7 +22,7 @@ plugins:
           youtube: true
         spotify:
           clientId: "84addc60eac449e19a3bd5fb1954c582"
-          clientSecret: " 71dc8b18c33243f488b8805b9991faf6"
+          clientSecret: "71dc8b18c33243f488b8805b9991faf6"
           countryCode: "IN"
           playlistLoadLimit: 6
           albumLoadLimit: 6
